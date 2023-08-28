@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding:0;
+}
+.wrapper{
+  margin: 0 auto;
+  width:  1000px;
+}
+
+.image-delanistudio{
+  width: 1400px;
+  height: 600px;
+  background-image: url(/images/background/h_img.jpg);
+  background-size: 100%;
+}
+
+h2{
+  text-align: center;
+}
+
+.image-keyboard{
+  width: 1400px;
+  height: 600px;
+  background-image: url(/images/background/s_image.jpg);
+  background-size: 100%;
+}
+.images{
+  display: flex;
+  flex-wrap:wrap;
+  margin: 0 50px;
+  padding:30px;
+}
+
+.photo{
+  max-width: 31.333%;
+  padding: 0 10px;
+  height: 240px;
+}
+
+.photo img{
+  width: 100%;
+  height: 90%;
+  border: 0;
+}
+
+/*.photo img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+} */
+
+.image-contactus{
+  width: 1400px;
+  height: 600px;
+  background-image: url(/images/background/c_image.jpg);
+  background-size: 100%;
+}
+/* Centered text */
+.centered { 
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services{
+  color: white;
+  text-align: center;
+  word-wrap: normal;
+}
